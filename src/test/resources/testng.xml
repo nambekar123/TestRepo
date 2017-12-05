@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Framework Tests" verbose="2">
+    <parameter name="browse" value="Chrome"></parameter>    
+<parameter name="driverpath" 
+        value="src/test/resources/chromedriver"></parameter>    
+    <test name="SmokeTest" preserve-order="true">
+        <classes>
+             <class name="com.selenium.first.FirstClass"></class>
+        </classes>        
+    </test>
+</suite>
